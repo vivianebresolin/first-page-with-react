@@ -1,7 +1,5 @@
-function App() {
-  return (
-    <h1>Teste</h1>
-  );
-}
+import Routes from './routes';
 
-export default App;
+export default function App() {
+  return <Routes />
+}
