@@ -13,7 +13,7 @@ export default function SmallTextPlusImg(props) {
     `
     const Title = styled.h3`
         font-size: 1.3rem;
-        margin: 0.9rem 0 0.5rem 0;
+        margin: 1rem 0 0.5rem 0;
     `
     return (
         <Element>

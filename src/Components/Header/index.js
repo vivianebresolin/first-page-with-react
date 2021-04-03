@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import backgroundImage from '../../images/sea.jpg';
 
-export default function Header() {
+export default function Header(props) {
     const Header = styled.header`
         width: 100%;
         height: 18em;
@@ -19,7 +19,7 @@ export default function Header() {
 
     return (
         <Header>
-            <Paragraph>Minha primeira página com React</Paragraph>
+            <Paragraph>{props.text}</Paragraph>
         </Header>
     )
 }

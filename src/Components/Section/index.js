@@ -4,7 +4,6 @@ import { faDesktop } from '@fortawesome/free-solid-svg-icons'
 import { faCheckCircle } from '@fortawesome/free-regular-svg-icons'
 import { faBuffer } from '@fortawesome/free-brands-svg-icons'
 
-
 export default function Section() {
 
     const Div = styled.div`
@@ -20,8 +19,8 @@ export default function Section() {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width: 95%;
-        
+        min-width: 75%;
+        max-width: 90%;        
     `
 
     return (
