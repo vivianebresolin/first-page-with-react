@@ -14,7 +14,7 @@ export default function Header(props) {
 
     const Paragraph = styled.p`
         color: white;
-        font-size: 1.8rem;        
+        font-size: 2rem;        
     `;
 
     return (
