@@ -1,5 +1,9 @@
+import Header from '../../Components/Header';
+
 export default function Home() {
+    document.title = 'Home';
+
     return (
-        <h1>Teste</h1>
+        <Header />
     )
 }
