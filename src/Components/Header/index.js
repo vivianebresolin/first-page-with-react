@@ -14,8 +14,7 @@ export default function Header() {
 
     const Paragraph = styled.p`
         color: white;
-        font-size: 1.8rem;
-        font-family: 'Roboto', sans-serif;
+        font-size: 1.8rem;        
     `;
 
     return (
