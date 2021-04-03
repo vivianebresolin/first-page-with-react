@@ -3,7 +3,8 @@ import styled from 'styled-components';
 const Title = styled.h3`
     font-size: 1.3rem;
     margin: 1rem 0 0.5rem 0;
-`
+`;
+
 const Text = styled.div`
     width: 50%;  
     background-color: white;     
@@ -16,10 +17,9 @@ const Text = styled.div`
     @media (max-width: 749px){
         width: 100%;
     };
-`
+`;
 
 export default function Article(props) {
-
     const Element = styled.article`
         width: 100%;
         margin: auto;        
@@ -50,7 +50,8 @@ export default function Article(props) {
             max-width: 70%;
             min-height: 45vh;
         };
-        `
+    `;
+
     const Image = styled.div`
         width: 50%;
         background: url(${props.url});
@@ -59,7 +60,7 @@ export default function Article(props) {
         @media (max-width: 749px){
             width: 0;
         };
-     `
+     `;
 
     return (
         <Element>

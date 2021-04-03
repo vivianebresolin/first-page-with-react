@@ -4,15 +4,14 @@ import imgPhone from '../../images/phone.PNG';
 import imgCode from '../../images/code.PNG';
 import imgChild from '../../images/child.PNG';
 
+const MainDiv = styled.main`
+    width: 100%;
+    background-color: ghostwhite;
+`;
+
 export default function Main() {
-
-    const Main = styled.main`
-        width: 100%;
-        background-color: ghostwhite;
-    `
-
     return (
-        <Main>
+        <MainDiv>
             <Article
                 title='Loren'
                 text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum cursus ex, 
@@ -50,8 +49,7 @@ export default function Main() {
                       quis est. Cras et leo et tortor convallis porttitor.'
                 url={imgChild}
             />
-        </Main>
-
+        </MainDiv>
     )
 }
 
