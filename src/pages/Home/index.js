@@ -12,7 +12,7 @@ export default function Home() {
             <Header text='Minha primeira página com React' />
             <Section />
             <Main />
-            <Footer title="Contato" />
+            <Footer />
         </React.Fragment>
     )
 }
