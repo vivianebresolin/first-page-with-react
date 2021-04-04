@@ -1,20 +1,21 @@
 # My First Page with React
 
-As the title says, this is my first project with React.
+As the title suggests, this is my first project with React.
 It is an activity from the course 'Fullstack Developer - Starter Program' from [Growdev](https://www.growdev.com.br/).
 It was given an example page and the goal was cloning it using React.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
+
 This is the example given:
 
-![Gif-example](https://github.com/vivianebresolin/first-page-with-react/blob/main/activity-react.gif)
+<img src="https://github.com/vivianebresolin/first-page-with-react/blob/main/activity-react.gif" height="500"/>
 
 
 This is my project:
 
-![Gif-my-project](https://github.com/vivianebresolin/first-page-with-react/blob/main/my-webpage-react.gif)
+<img src="https://github.com/vivianebresolin/first-page-with-react/blob/main/my-webpage-react.gif" height="500"/>
 
 
 ## 🚀 How to run the project?
