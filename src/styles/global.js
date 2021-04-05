@@ -9,6 +9,11 @@ export default createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Roboto', sans-serif;
     }
+
+    /*FontAwesome - SocialMedia icons*/
+    .svg-inline--fa {
+        vertical-align: -0.175em;
+    }
 `;
 
 
