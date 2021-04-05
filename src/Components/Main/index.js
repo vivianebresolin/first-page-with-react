@@ -1,13 +1,8 @@
-import styled from 'styled-components';
 import Article from '../Article';
+import { MainDiv } from './styles';
 import imgPhone from '../../images/phone.PNG';
 import imgCode from '../../images/code.PNG';
 import imgChild from '../../images/child.PNG';
-
-const MainDiv = styled.main`
-    width: 100%;
-    background-color: ghostwhite;
-`;
 
 export default function Main() {
     return (

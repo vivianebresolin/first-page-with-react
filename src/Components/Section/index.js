@@ -1,25 +1,9 @@
-import styled from 'styled-components';
+import { Div, SectionDiv } from './styles';
 import SmallTextPlusImg from '../SmallTextPlusImg'
 import { faDesktop } from '@fortawesome/free-solid-svg-icons'
 import { faCheckCircle } from '@fortawesome/free-regular-svg-icons'
 import { faBuffer } from '@fortawesome/free-brands-svg-icons'
 
-const Div = styled.div`
-    width: 100%;
-    height: 20em;
-    background-color: ghostwhite;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-`;
-
-const SectionDiv = styled.section`
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    min-width: 75%;
-    max-width: 90%;        
-`;
 
 export default function Section() {
     return (

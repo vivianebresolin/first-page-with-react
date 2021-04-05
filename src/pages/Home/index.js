@@ -9,7 +9,7 @@ export default function Home() {
 
     return (
         <React.Fragment>
-            <Header text='Minha primeira página com React' />
+            <Header />
             <Section />
             <Main />
             <Footer />
