@@ -1,6 +1,13 @@
+import React from 'react';
 import Routes from './routes';
-import './App.css';
+import GlobalStyle from './styles/global';
 
 export default function App() {
-  return <Routes />
+  return (
+    <React.Fragment>
+      <Routes />
+      <GlobalStyle />
+    </React.Fragment>
+  );
+
 }
